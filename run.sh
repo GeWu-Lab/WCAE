@@ -1,0 +1,14 @@
+python main.py \
+--audio_dir "/data/users/wenxuan_hou/tencent_project/ICMR25_WCAE_feature/audio_feat_AST/" \
+--visual_dir "/data/users/wenxuan_hou/tencent_project/ICMR25_WCAE_feature/Swin_L_384_feature/" \
+--video_dir "/data/users/wenxuan_hou/tencent_project/ICMR25_WCAE_feature/VideoSwin_B_3D_feature" \
+--label_train "/data/users/wenxuan_hou/tencent_project/download_file/ICMR25_label_file/label_train.json" \
+--label_val "/data/users/wenxuan_hou/tencent_project/download_file/ICMR25_label_file/label_val.json" \
+--label_test "/data/users/wenxuan_hou/tencent_project/download_file/ICMR25_label_file/label_test.json" \
+--batch_size 16 \
+--lr 1e-4 \
+--epochs 20 \
+--eval_unc_logit_adj_ratio 5.0 \
+--unc_rank_type 'sigmoid_sym' \
+--sig_sym_th 2.0 \
+--l2_weight_decay 0.000
