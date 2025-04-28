@@ -10,9 +10,9 @@ Authors: [Wenxuan Hou](https://hou9612.github.io/), [Kaibing Yang](https://keibi
 
 Due to the data privacy policy of Tencent, we provide extracted features for each video. Specifically, we use AST to extract audio features, use Swin Transformer and Video Swin Transformer to extract visual features.
 
-Extracted features (~6.4G): Comming Soon.
+Extracted features (~6.4G): Coming Soon.
 
-Label files (~826K): Comming Soon.
+Label files (~826K): Coming Soon.
 
 
 
